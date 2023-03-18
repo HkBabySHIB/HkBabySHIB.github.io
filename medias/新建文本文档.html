@@ -1,0 +1,53 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+    
+        window.onload = function(){
+            methodsOne()
+        }
+        function methodsOne() { //法一
+                    // window.open("./js/pdfJS/web/viewer.html?fileAngularJS权威指南.pdf"  );//文件和viewer.html同路径
+                    // window.open("http://localhost:8888/pdfJS/web/viewer.html?file=AngularJS权威指南.pdf" );//文件和viewer.html同路径
+                    // window.open("./js/pdfJS/web/viewer.html?file=/pdf/files/AngularJS权威指南.pdf"); //文件和viewer.html 不同路径，注意路径 
+                    // let fileUrl = encodeURIComponent('https://hkbabyshib.github.io/medias/BabyShibWhitebook.pdf') //将路径转码
+                    // window.open("https://hkbabyshib.github.io/medias/web/viewer.html?file=" + fileUrl);
+                    window.open("E:/babySHIB/hexoblog/themes/hexo-theme-matery/source/medias/web/viewer.html?file=compressed.tracemonkey-pldi-09.pdf");
+
+                }
+
+    </script>
+    <a href="src=./BabyShibWhitebook.pdf"></a>
+    <iframe src="E:/babySHIB/hexoblog/themes/hexo-theme-matery/source/medias/web/viewer.html?file=E:/babySHIB/hexoblog/themes/hexo-theme-matery/source/medias/BabyShibWhitebook.pdf" width="100%" height="100%"></iframe>
+</body
+</html> -->
+
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <iframe src="E:/babySHIB/hexoblog/themes/hexo-theme-matery/source/medias/web/viewer.html?file=compressed.tracemonkey-pldi-09.pdf" width="100%" height="100%"></iframe>
+    <iframe src="https://hkbabyshib.github.io/medias/BabyShibWhitebook.pdf" width="100px" height="100px"></iframe> -->
+    <object type="application/pdf" data="https://hkbabyshib.github.io/medias/BabyShibWhitebook.pdf"  width="400px" height="250px" ><object/> 
+
+
+        <video type="application/pdf">
+            <track label="英文" kind="subtitles" src="https://hkbabyshib.github.io/medias/BabyShibWhitebook.pdf" srclang="en">
+            <!-- <track label="中文" kind="subtitles" src="subtitles_cn.vtt" srclang="cn" default> -->
+            </video>
+
+</body>
+</html>
